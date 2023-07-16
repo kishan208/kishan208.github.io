@@ -9,7 +9,7 @@
     
     var cfg = {
         scrollDuration : 800, // smoothscroll duration
-        mailChimpURL   : 'https://facebook.us8.list-manage.com/subscribe/post?u=cdb7b577e41181934ed6a6a44&amp;id=e6957d85dc'   // mailchimp url
+        mailChimpURL   : 'https://yoursgraphic.us21.list-manage.com/subscribe/post?u=141cf6456c63dacbbc27e4a94&amp;id=278e714ceb&amp;f_id=00c55ce1f0'   // mailchimp url
     },
 
     $WIN = $(window);
