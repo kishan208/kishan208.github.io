@@ -399,7 +399,7 @@
         
         $('#mc-form').ajaxChimp({
             language: 'es',
-            url: cfg.mailChimpURL
+            url: cfg.https://yoursgraphic.us21.list-manage.com/subscribe/post?u=141cf6456c63dacbbc27e4a94&amp;id=278e714ceb&amp;f_id=00c55ce1f0
         });
 
         // Mailchimp translation
