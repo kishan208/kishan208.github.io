@@ -7,10 +7,7 @@
 
 <head>
 
-    <style>
-        .wa-chat-box-poweredby {
-      display: none !important;}
-      </style>
+    
 
 
 <!-- whatsapp (Integration code wati) -->
@@ -202,7 +199,7 @@
                     <a href="#contact" class="smoothscroll btn btn--stroke">
                         Start a Project
                     </a>
-                    <a href="https://drive.google.com/file/d/1aqA5Z8h1DT4tTQtoaA23bS6CHpj4_ifb/view" class="btn btn--stroke">                        More About Us
+                    <a href="https://drive.google.com/file/d/1aqA5Z8h1DT4tTQtoaA23bS6CHpj4_ifb/view" class="btn btn--stroke">                        Download Resume
                     </a>
                 </div>
 
@@ -692,14 +689,14 @@ Creating fun and colorful branding that sparks imagination, captures attention, 
                 <h1 class="display-2 display-2--light">Reach out for a new project or just say hello</h1>
             </div>
         </div>
-
+                    
         <div class="row contact-content" data-aos="fade-up">
             
             <div class="contact-primary">
 
                 <h3 class="h6">Send Us A Message</h3>
 
-                <form name="contactForm" id="contactForm" method="post" action="https://yoursgraphic.us21.list-manage.com/subscribe/post?u=141cf6456c63dacbbc27e4a94&amp;id=278e714ceb&amp;f_id=00c55ce1f0" novalidate="novalidate">
+                <form name="contactForm" id="contactForm">
                     <fieldset>
     
                     <div class="form-field">
@@ -717,7 +714,7 @@ Creating fun and colorful branding that sparks imagination, captures attention, 
                     <div class="form-field">
                         <button class="full-width btn--primary">Submit</button>
                         <div class="submit-loader">
-                            <div class="text-loader">Sending...</div>
+                            <div class="text-loader">Sending... </div>
                             <div class="s-loader">
                                 <div class="bounce1"></div>
                                 <div class="bounce2"></div>
@@ -728,11 +725,6 @@ Creating fun and colorful branding that sparks imagination, captures attention, 
     
                     </fieldset>
                 </form>
-
-                <!-- contact-warning -->
-                <div class="message-warning">
-                    Something went wrong. Please try again.
-                </div> 
             
                 <!-- contact-success -->
                 <div class="message-success">
@@ -898,11 +890,14 @@ Creating fun and colorful branding that sparks imagination, captures attention, 
     </div>
 
 
-    <!-- Java Script
-    ================================================== -->
+    <!-- Java Script ================================================== -->
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/10.4.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+    <script src="./mail.js"></script>
 
 </body>
 
